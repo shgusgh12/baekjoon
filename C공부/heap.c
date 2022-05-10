@@ -9,4 +9,72 @@ typedef struct {
 	/* other fields */
 } element;
 element heap[MAX_ELEMENTS];
-int n = 0;void push(element item, int* n){	int i;	if (HEAP_FULL(*n))	{		fprintf(stderr, "heap if hull\n");		exit(EXIT_FAILURE);	}	i = ++(*n);	while ((i != 1) && (item.key > heap[i / 2].key))	{		heap[i] = heap[i / 2];		i /= 2;	}	heap[i] = item;}element pop(int* n){	int parent, child;	element item, temp;	if (HEAP_EMPTY(*n))	{		fprintf(stderr, "heap if empty\n");		exit(EXIT_FAILURE);	}	item = heap[1];	temp = heap[(*n)--];	parent = 1;	child = 2;	while (child <= (*n))	{		if (child < *n && heap[child].key < heap[child + 1].key)			child++;		if (temp.key >= heap[child].key)			break;		heap[parent] = heap[child];		parent = child;		child *= 2;	}	heap[parent] = temp;	return item;}int main(){	int cnt=0;	int a;	printf("ÄÄÇ»ÅÍÇĞºÎ 2018111113 ³ëÇöÈ£\n");	element k;	FILE* fp;	fp = fopen("in.txt", "r");	while (!feof(fp))	{		fscanf(fp, "%d", &k);		push(k, &n);		cnt++;	}	for (int i = 1; i <= cnt; i++)	{		printf("%d ", heap[i]);	}	printf("\n");	scanf("%d", &a);	for (int i = a; i > 0; i--)	{		pop(&n);	}	for (int i = 1; i <= n; i++)	{		printf("%d ", heap[i]);	}}
+int n = 0;
+void push(element item, int* n)
+{
+	int i;
+	i = ++(*n);
+	while ((i != 1) && (item.key > heap[i / 2].key))
+	{
+		heap[i] = heap[i / 2];
+		i /= 2;
+	}
+	heap[i] = item;
+}
+
+element pop(int* n)
+{
+	int parent, child;
+	element item, temp;
+	if (HEAP_EMPTY(*n))
+	{
+		fprintf(stderr, "heap if empty\n");
+		exit(EXIT_FAILURE);
+	}
+	item = heap[1];
+	temp = heap[(*n)--];
+	parent = 1;
+	child = 2;
+	while (child <= (*n))
+	{
+		if (child < *n && heap[child].key < heap[child + 1].key)
+			child++;
+		if (temp.key >= heap[child].key)
+			break;
+		heap[parent] = heap[child];
+		parent = child;
+		child *= 2;
+	}
+	heap[parent] = temp;
+	return item;
+}
+
+int main()
+{
+	int cnt=0;
+	int a;
+	printf("Ã„Ã„Ã‡Â»Ã…ÃÃ‡ÃÂºÃ 2018111113 Â³Ã«Ã‡Ã¶ÃˆÂ£\n");
+	element k;
+	FILE* fp;
+	fp = fopen("in.txt", "r");
+	while (!feof(fp))
+	{
+		fscanf(fp, "%d", &k);
+		push(k, &n);
+		cnt++;
+	}
+	for (int i = 1; i <= cnt; i++)
+	{
+		printf("%d ", heap[i]);
+	}
+	printf("\n");
+	scanf("%d", &a);
+	for (int i = a; i > 0; i--)
+	{
+		pop(&n);
+	}
+	for (int i = 1; i <= n; i++)
+	{
+		printf("%d ", heap[i]);
+	}
+}
