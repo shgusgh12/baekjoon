@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-25T17:57:54.850Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="U1bQhXhhn8S8_rtr_nhb" version="20.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-25T17:59:07.797Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="o98KlN0cLirkkbK375fD" version="20.3.6" type="github">
   <diagram id="c_tUVglb4QlU3tGimCE_" name="페이지-1">
     <mxGraphModel dx="1107" dy="676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -195,6 +195,30 @@
         </mxCell>
         <mxCell id="4lpDPO-DE4PUYxhVvUUK-111" value="expected ship&lt;br&gt;date" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="719" y="786" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4lpDPO-DE4PUYxhVvUUK-112" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4lpDPO-DE4PUYxhVvUUK-107" target="4lpDPO-DE4PUYxhVvUUK-85">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="736" as="sourcePoint" />
+            <mxPoint x="253" y="686" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4lpDPO-DE4PUYxhVvUUK-113" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="4lpDPO-DE4PUYxhVvUUK-38" target="4lpDPO-DE4PUYxhVvUUK-85">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="141.9999999999984" y="712" as="sourcePoint" />
+            <mxPoint x="249" y="686" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4lpDPO-DE4PUYxhVvUUK-114" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="4lpDPO-DE4PUYxhVvUUK-39" target="4lpDPO-DE4PUYxhVvUUK-85">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="151.9999999999984" y="722" as="sourcePoint" />
+            <mxPoint x="259" y="696" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4lpDPO-DE4PUYxhVvUUK-115" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="4lpDPO-DE4PUYxhVvUUK-40" target="4lpDPO-DE4PUYxhVvUUK-85">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="161.9999999999984" y="732" as="sourcePoint" />
+            <mxPoint x="269" y="706" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
