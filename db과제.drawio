@@ -1,1 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2022-09-25T16:11:50.626Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="KtD-fpdiDfX6a0ylFQdj" version="20.3.6" type="github"><diagram id="c_tUVglb4QlU3tGimCE_" name="페이지-1">ddG9DoMgEADgp2FXSKzO1rZLJ4fORK5Cgp5BGm2fvprTWmK7kOO7g+OHibwZz052+ooKLOORGpk4Ms6zLJnGGZ4ESZQS1M4ooniD0rxgwWjRh1HQB4Ue0XrThVhh20LlA5PO4RCW3dGGXTtZww7KStq93ozymjTlh80vYGq9do6TjDKNXIuXm/RaKhy+SBRM5A7RU9SMOdj57dZ3oXWnP9nPwRy0/seCKdj2nibBB4niDQ==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-25T16:31:23.941Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="RDBgynvOhIuVI1iaRmFW" version="20.3.6" type="github">
+  <diagram id="c_tUVglb4QlU3tGimCE_" name="페이지-1">
+    <mxGraphModel dx="996" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4lpDPO-DE4PUYxhVvUUK-14" value="company" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="200" y="190" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4lpDPO-DE4PUYxhVvUUK-15" value="Employee" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="200" y="350" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4lpDPO-DE4PUYxhVvUUK-17" value="Customer" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="440" y="190" width="100" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
