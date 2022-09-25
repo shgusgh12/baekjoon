@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-25T16:55:01.800Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="yVlQF86ztKiIfDhE6UnG" version="20.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-25T17:15:09.390Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="33LgyttWyKg5MqcCipZq" version="20.3.6" type="github">
   <diagram id="c_tUVglb4QlU3tGimCE_" name="페이지-1">
     <mxGraphModel dx="996" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -23,7 +23,7 @@
           <mxGeometry x="580" y="187" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4lpDPO-DE4PUYxhVvUUK-19" value="Part" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="190" y="340" width="100" height="40" as="geometry" />
+          <mxGeometry x="190" y="360" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4lpDPO-DE4PUYxhVvUUK-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="4lpDPO-DE4PUYxhVvUUK-20" target="4lpDPO-DE4PUYxhVvUUK-42">
           <mxGeometry relative="1" as="geometry" />
@@ -34,23 +34,23 @@
         <mxCell id="4lpDPO-DE4PUYxhVvUUK-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4lpDPO-DE4PUYxhVvUUK-20" target="4lpDPO-DE4PUYxhVvUUK-45">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="720" y="360" />
-              <mxPoint x="720" y="400" />
-              <mxPoint x="777" y="400" />
+              <mxPoint x="715" y="447" />
+              <mxPoint x="715" y="487" />
+              <mxPoint x="772" y="487" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="4lpDPO-DE4PUYxhVvUUK-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4lpDPO-DE4PUYxhVvUUK-20" target="4lpDPO-DE4PUYxhVvUUK-48">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="560" y="360" />
-              <mxPoint x="560" y="400" />
-              <mxPoint x="500" y="400" />
+              <mxPoint x="555" y="447" />
+              <mxPoint x="555" y="487" />
+              <mxPoint x="495" y="487" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="4lpDPO-DE4PUYxhVvUUK-20" value="Order" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="590" y="340" width="100" height="40" as="geometry" />
+          <mxGeometry x="585" y="427" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4lpDPO-DE4PUYxhVvUUK-21" value="unique &lt;br&gt;employee id" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
           <mxGeometry x="270" y="100" width="100" height="40" as="geometry" />
@@ -101,16 +101,28 @@
           <mxGeometry x="33" y="400" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4lpDPO-DE4PUYxhVvUUK-42" value="a date of &lt;br&gt;receipt" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
-          <mxGeometry x="530" y="470" width="100" height="40" as="geometry" />
+          <mxGeometry x="525" y="557" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4lpDPO-DE4PUYxhVvUUK-44" value="actual ship&amp;nbsp;&lt;br&gt;date" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
-          <mxGeometry x="650" y="470" width="100" height="40" as="geometry" />
+          <mxGeometry x="645" y="557" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4lpDPO-DE4PUYxhVvUUK-45" value="expected ship&lt;br&gt;date" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
-          <mxGeometry x="727" y="420" width="100" height="40" as="geometry" />
+          <mxGeometry x="722" y="507" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4lpDPO-DE4PUYxhVvUUK-48" value="unique &lt;br&gt;order id" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
-          <mxGeometry x="450" y="430" width="100" height="40" as="geometry" />
+          <mxGeometry x="445" y="517" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4lpDPO-DE4PUYxhVvUUK-54" value="placed by" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="575" y="290" width="115" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4lpDPO-DE4PUYxhVvUUK-55" value="taken by" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="400" y="250" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4lpDPO-DE4PUYxhVvUUK-57" value="contains" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="370" y="370" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4lpDPO-DE4PUYxhVvUUK-58" value="zip code" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="10" y="147" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
